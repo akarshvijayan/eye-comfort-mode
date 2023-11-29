@@ -1,4 +1,4 @@
-A simple dark theme for the PDFs.
+A simple dark mode for the PDFs.
 
 The PDF Dark Mode extension toggles the dark mode for PDFs. The toolbar button is an ON|OFF switch, enabling you to easily turn the dark mode ON or OFF.
 
