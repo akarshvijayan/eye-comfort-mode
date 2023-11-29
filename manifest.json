@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "PDF Dark Mode",
   "description": "Click to toggle dark mode for PDF",
-  "version": "1.0",
+  "version": "1.0.0",
   "action": {
     "default_icon": "icons/icon128.png"
   },
