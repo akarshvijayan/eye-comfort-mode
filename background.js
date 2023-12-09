@@ -2,7 +2,7 @@ const keepAlive = () => setInterval(chrome.runtime.getPlatformInfo, 20e3);
 chrome.runtime.onStartup.addListener(keepAlive);
 keepAlive();
 
-chrome.runtime.onStartup.addListener(() => {
+const runExtension = () => {
   const browserAction = chrome.browserAction || chrome.action;
   browserAction.onClicked.addListener(() => {
     chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
@@ -33,4 +33,7 @@ chrome.runtime.onStartup.addListener(() => {
       }
     });
   });
-});
+}
+
+chrome.runtime.onStartup.addListener(runExtension);
+chrome.runtime.onInstalled.addListener(runExtension);

@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Eye Comfort Mode",
-  "description": "A mode designed to provide visual comfort for reading various web content, extending beyond just texts and PDFs.",
-  "version": "2.0.0",
+  "name": "Toggle Dark Mode",
+  "description": "One click solution to toggle between dark and light modes for reading various web content, extending beyond just texts and PDFs.",
+  "version": "1.0.0",
   "action": {
     "default_icon": "icons/icon128.png"
   },
