@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Toggle Dark Mode",
   "description": "One click solution to toggle between dark and light modes for reading various web content, extending beyond just texts and PDFs.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "action": {
     "default_icon": "icons/icon128.png"
   },
@@ -14,6 +14,9 @@
   },
   "permissions": [
     "activeTab", "scripting"
+  ],
+  "host_permissions": [
+    "file:///*"
   ],
   "background": {
     "service_worker": "background.min.js"
